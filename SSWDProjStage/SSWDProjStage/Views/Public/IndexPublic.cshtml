@@ -3,3 +3,23 @@
 }
 
 <h2>IndexPublic</h2>
+
+@using (Html.BeginForm("Search", "Public", FormMethod.Get))
+{ 
+    <label title="Search by: " />
+    <br />
+    <input type="radio" name="rdbAuthor" > 
+    <br />
+    <input type="radio" name="rdbTitle"> 
+    <br />
+    <input type="search" name="txtSearch" />
+    <br />
+    <br />
+    <input name="btnSearch" type="submit" value="Search Book!" />
+    
+    <select name="searchDropList">
+        <option value="author">Author</option>
+        <option value="booktitle">Book Title</option>
+    </select>
+
+}
