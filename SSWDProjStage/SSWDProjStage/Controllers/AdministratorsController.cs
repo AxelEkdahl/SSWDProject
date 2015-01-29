@@ -14,6 +14,7 @@ namespace SSWDProjStage.Controllers
         public ActionResult IndexAdmin()
         {
             //heeeej
+            //på dig
             return View();
         }
 
