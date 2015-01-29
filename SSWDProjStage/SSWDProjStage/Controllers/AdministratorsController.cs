@@ -11,8 +11,9 @@ namespace SSWDProjStage.Controllers
         //
         // GET: /Administrators/
 
-        public ActionResult Index()
+        public ActionResult IndexAdmin()
         {
+            //heeeej
             return View();
         }
 

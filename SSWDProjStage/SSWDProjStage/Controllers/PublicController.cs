@@ -11,7 +11,7 @@ namespace SSWDProjStage.Controllers
         //
         // GET: /Public/
 
-        public ActionResult Index()
+        public ActionResult IndexPublic()
         {
             return View();
         }

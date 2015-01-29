@@ -11,7 +11,7 @@ namespace SSWDProjStage.Controllers
         //
         // GET: /Borrowers/
 
-        public ActionResult Index()
+        public ActionResult IndexBorrow()
         {
             return View();
         }
